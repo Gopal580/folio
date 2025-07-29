@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -38,7 +39,7 @@ const Home = () => {
           </div>
 
           {/* Button */}
-          <motion.a
+          <motion.Link
             href="/projects"
             className="inline-block mt-8 px-6 py-3 bg-gradient-to-r from-pink-500 to-yellow-500 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition duration-300"
             initial={{ opacity: 0, y: 10 }}
@@ -46,7 +47,7 @@ const Home = () => {
             transition={{ delay: 0.5 }}
           >
             View My Work
-          </motion.a>
+          </motion.Link>
         </motion.div>
       </div>
     </>
