@@ -4,19 +4,19 @@ import { motion } from 'framer-motion';
 
 const education = [
   {
-    degree: "B.Tech in Computer Science",
-    institution: "Chameli Devi Group of Institutions, Indore",
-    year: "2021 - 2025"
+    degree: "B.E. in Mechanical Engineering",
+    institution: "Vindhya Institute of Technology and Science, Indore",
+    year: "2018"
   },
   {
     degree: "12th Grade (PCM)",
-    institution: "Abhigyan International School, Sanawad",
-    year: "2020 - 2021"
+    institution: "Saraswati Shishu Mandir,Khandwa",
+    year: "2013"
   },
    {
     degree: "10th Grade ",
-    institution: "Drashti Public School, Sanawad",
-    year: "2019 - 2020"
+    institution: "Saraswati Shishu Mandir,Khandwa",
+    year: "2011"
   },
 ];
 

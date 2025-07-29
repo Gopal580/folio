@@ -8,7 +8,7 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Skills", href: "/skills" },
-    { name: "Projects", href: "/projects" },
+    { name: "Experience", href: "/projects" },
     { name: "Education", href: "/education" },
     { name: "Contact", href: "/contact" },
   ];
@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo / Brand */}
         <h1 className="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text tracking-tight">
-          Gopal's Portfolio
+          Sachin's Portfolio
         </h1>
 
         {/* Desktop Links */}

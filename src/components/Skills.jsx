@@ -3,8 +3,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = [
-  "HTML", "CSS", "Tailwind CSS", "Java", "JavaScript",
-  "React", "Node.js", "Express", "MongoDB"
+
+" Territory Management" ,
+ "Dealer & Distributor Network" ,
+" Agri-Equipment Sales ",
+" Sales Target Achievement ",
+" Product Demonstrations", 
+"Channel Development" ,
+ "MS Excel & PowerPoint" ,
+" Client Relationship Management ",
 ];
 
 // Animation Variants
