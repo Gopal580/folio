@@ -40,7 +40,7 @@ const Home = () => {
 
           {/* Button */}
           <motion.Link
-            href="/projects"
+            to="/projects"
             className="inline-block mt-8 px-6 py-3 bg-gradient-to-r from-pink-500 to-yellow-500 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition duration-300"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
